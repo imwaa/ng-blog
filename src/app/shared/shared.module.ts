@@ -6,7 +6,7 @@ import { AppRoutingModule } from "../app-routing.module";
 
 @NgModule({
   declarations: [NavbarComponent],
-  imports: [CommonModule, MaterialModule],
+  imports: [CommonModule, MaterialModule, AppRoutingModule],
   exports: [CommonModule, MaterialModule, NavbarComponent, AppRoutingModule],
 })
 export class SharedModule {}

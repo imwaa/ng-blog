@@ -15,6 +15,7 @@ import {
   AngularFirestoreModule,
 } from "@angular/fire/compat/firestore";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { PostsModule } from "./posts/posts.module";
 
 @NgModule({
   declarations: [AppComponent],
@@ -29,6 +30,7 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
     AngularFireAuthModule,
     AngularFireAuthModule,
     BrowserAnimationsModule,
+    PostsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
