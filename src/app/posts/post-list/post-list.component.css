@@ -1,0 +1,14 @@
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.article-card {
+  max-width: 350px;
+  height: fit-content;
+  margin: 10px 0;
+}

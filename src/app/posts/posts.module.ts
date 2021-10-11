@@ -6,6 +6,7 @@ import { PostListComponent } from "./post-list/post-list.component";
 import { PostService } from "./post.service";
 import { SharedModule } from "../shared/shared.module";
 import { AppRoutingModule } from "../app-routing.module";
+import { MaterialModule } from "../material.module";
 
 @NgModule({
   declarations: [
@@ -13,7 +14,7 @@ import { AppRoutingModule } from "../app-routing.module";
     PostDetailComponent,
     PostListComponent,
   ],
-  imports: [CommonModule, SharedModule, AppRoutingModule],
+  imports: [CommonModule, MaterialModule, SharedModule, AppRoutingModule],
   providers: [PostService],
 })
 export class PostsModule {}
