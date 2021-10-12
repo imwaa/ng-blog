@@ -1,6 +1,8 @@
 # NgBlog
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
+## try it
+link of the app : https://imwaa.github.io/ng-blog/
 
 # Screen captures
 
